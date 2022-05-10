@@ -1,0 +1,27 @@
+:root {
+  --primary-color: hsl(170, 100%, 26%);
+  --secudary-color: hsl(210, 11%, 15%, 1);
+  font-size: 62.5%; /*1*/
+}
+
+body {
+  font-family: 'DM Sans';
+}
+
+h4 {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+}
+
+h1 {
+  font-size: 3.4rem;
+  color: var(--secudary-color);
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+button {
+  background: var(--primary-color);
+}
